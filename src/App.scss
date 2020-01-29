@@ -340,14 +340,13 @@ header {
 
   &__generic {
     li {
+      padding: 10px 0 10px 10px;
       list-style-type: none;
       color: #333;
       display: flex;
       cursor: pointer;
       line-height: 1.5;
       font-size: 15px;
-      padding-left: 0;
-      padding-right: 0;
 
       span:first-of-type {
         margin-right: 10px;
@@ -359,12 +358,12 @@ header {
           color: #555;
         }
       }
-    }
 
-    &.active,
-    &:hover {
-      font-weight: bold;
-      background-color: white;
+      &.active,
+      &:hover {
+        font-weight: bold;
+        background-color: white;
+      }
     }
   }
 }
