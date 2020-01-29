@@ -25,7 +25,7 @@ export const Sidebar = () => (
         <span>
           <FaRegCalendarAlt />
         </span>
-        <span>Today</span>
+        <span>Next 7 Days</span>
       </li>
     </ul>
     <div className="sidebar__middle">
