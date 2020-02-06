@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Checkbox } from "../components/Checkbox";
+import { AddTask } from "../components/AddTask";
 import { useTasks } from "../hooks";
 import { collatedTasks } from "../constants";
 import { getTitle, getCollatedTitle, collatedTasksExist } from "../helpers";
@@ -38,6 +39,7 @@ export const Tasks = () => {
           </li>
         ))}
       </ul>
+      <AddTask />
     </div>
   );
 };
